@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.upDataDB:
                 MySQLiteOpenHelper o=new MySQLiteOpenHelper(this,"MyGreenDb.db",null);
                 DaoMaster daoMaster = new DaoMaster(o.getWritableDatabase());
-//                ss
+//                ssggg
                 break;
         }
     }
